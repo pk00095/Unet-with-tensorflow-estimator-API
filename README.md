@@ -3,7 +3,7 @@
 
 # ground truth mask
 
-use the (https://github.com/abreheret/PixelAnnotationTool)[pixel Annotation tool] to Annotate the image then create binary mask by thresholding .
+use the [https://github.com/abreheret/PixelAnnotationTool](pixel Annotation tool) to Annotate the image then create binary mask by thresholding .
 
 example of creating binary mask from the masks created by pixel Annotation Tool:
 
