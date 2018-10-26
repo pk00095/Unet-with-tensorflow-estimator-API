@@ -3,7 +3,7 @@
 
 # ground truth mask
 
-use the [https://github.com/abreheret/PixelAnnotationTool](pixel Annotation tool) to Annotate the image then create binary mask by thresholding .
+use the [https://github.com/abreheret/PixelAnnotationTool](pixel_Annotation_tool) to Annotate the image then create binary mask by thresholding .
 
 example of creating binary mask from the masks created by pixel Annotation Tool:
 
@@ -15,7 +15,7 @@ example of creating binary mask from the masks created by pixel Annotation Tool:
     
 # creating and parsing tfrecords
 
-* (https://github.com/pk00095/Unet-with-tensorflow-estimator-API/blob/master/unet_utils.py)[unet_utils.py] contains functions necessary to convert raw images and masks into (https://medium.com/mostly-ai/tensorflow-records-what-they-are-and-how-to-use-them-c46bc4bbb564)[tfrecord] format.
+* [https://github.com/pk00095/Unet-with-tensorflow-estimator-API/blob/master/unet_utils.py](unet_utils.py) contains functions necessary to convert raw images and masks into [https://medium.com/mostly-ai/tensorflow-records-what-they-are-and-how-to-use-them-c46bc4bbb564](tfrecord) format.
 
 * use the script tfrecord_creator.py to create tfrecords from training and testing images. open it and set the path to point to the directories containing training and testing images. 
 
